@@ -4,6 +4,7 @@ import turtle
 curr_time = time.localtime
 curr_clock = time.strftime("%H:%M:%S", curr_time)
 
+#print result
 print(curr_clock)
 
 star = turtle.Turtle()
@@ -16,3 +17,5 @@ for i in range(4)
     star.forward(100)
 
 turtle.done()
+=======
+print(curr_time)
